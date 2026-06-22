@@ -62,7 +62,7 @@ const register = async (data) => {
       phoneNumber : data.phoneNumber,
       address : data.address,
       password: hashedPassword,
-      verificationToken: token
+    
     }
   });
 
